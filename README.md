@@ -1,3 +1,6 @@
+<img src="https://skillicons.dev/icons?i=flutter,dart" />
+<br>
+
 ![banner](https://github.com/simformsolutions/flutter_credit_card/blob/master/readme_assets/banner.png?raw=true)
 
 # Flutter Credit Card Plus
@@ -52,14 +55,17 @@ A Flutter package allows you to easily implement the Credit card's UI easily wit
 
     Get the latest version from the 'Installing' tab on [pub.dev](https://pub.dev/packages/flutter_credit_card/install)
     
-```dart
+```yaml
 dependencies:
-    flutter_credit_card: <latest_version>
+    flutter_credit_card_plus:
+      git:
+        url: https://github.com/joeshwoa/flutter_credit_card_plus
+        ref: main   # Optional: specify the branch, commit, or tag if needed
 ```
 
 2.  Import the package
 ```dart
-import 'package:flutter_credit_card/flutter_credit_card.dart';
+import 'package:flutter_credit_card_plus/flutter_credit_card_plus.dart';
 ```
 
 3.  Adding CreditCardWidget
@@ -268,21 +274,30 @@ Check out the **example** app in the [example](example) directory or the 'Exampl
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/vatsaltanna"><img src="https://avatars.githubusercontent.com/u/25323183?s=100" width="100px;" alt=""/><br /><sub><b>Vatsal Tanna</b></sub></a></td>
-    <td align="center"><a href="https://github.com/DevarshRanpara"><img src="https://avatars.githubusercontent.com/u/26064415?s=100" width="100px;" alt=""/><br /><sub><b>Devarsh Ranpara</b></sub></a></td>
-    <td align="center"><a href="https://github.com/Kashifalaliwala"><img src="https://avatars.githubusercontent.com/u/30998350?s=100" width="100px;" alt=""/><br /><sub><b>Kashifa Laliwala</b></sub></a></td>
-    <td align="center"><a href="https://github.com/SanketKachhela"><img src="https://avatars.githubusercontent.com/u/20923896?s=100" width="100px;" alt=""/><br /><sub><b>Sanket Kachchela</b></sub></a></td>
-    <td align="center"><a href="https://github.com/meetjanani"><img src="https://avatars.githubusercontent.com/u/32095359?s=100" width="100px;" alt=""/><br /><sub><b>Meet Janani</b></sub></a></td>
-    <td align="center"><a href="https://github.com/shwetachauhan-simform"><img src="https://avatars.githubusercontent.com/u/63042002?s=100" width="100px;" alt=""/><br /><sub><b>Shweta Chauhan</b></sub></a></td>
-    <td align="center"><a href="https://github.com/kavantrivedi"><img src="https://avatars.githubusercontent.com/u/97207242?s=100" width="100px;" alt=""/><br /><sub><b>Kavan Trivedi</b></sub></a></td>
-    <td align="center"><a href="https://github.com/Ujas-Majithiya"><img src="https://avatars.githubusercontent.com/u/56400956?v=4" width="100px;" alt=""/><br /><sub><b>Ujas Majithiya</b></sub></a></td>
-    <td align="center"><a href="https://github.com/aditya-chavda"><img src="https://avatars.githubusercontent.com/u/41247722?v=4" width="100px;" alt=""/><br /><sub><b>Aditya Chavda</b></sub></a></td>
+    <td align="center"><a href="https://github.com/joeshwoa"><img src="https://avatars.githubusercontent.com/u/96644682?s=100" width="100px;" alt=""/><br /><sub><b>Joshua George</b></sub></a></td>
+
+[//]: # (    <td align="center"><a href="https://github.com/DevarshRanpara"><img src="https://avatars.githubusercontent.com/u/26064415?s=100" width="100px;" alt=""/><br /><sub><b>Devarsh Ranpara</b></sub></a></td>)
+
+[//]: # (    <td align="center"><a href="https://github.com/Kashifalaliwala"><img src="https://avatars.githubusercontent.com/u/30998350?s=100" width="100px;" alt=""/><br /><sub><b>Kashifa Laliwala</b></sub></a></td>)
+
+[//]: # (    <td align="center"><a href="https://github.com/SanketKachhela"><img src="https://avatars.githubusercontent.com/u/20923896?s=100" width="100px;" alt=""/><br /><sub><b>Sanket Kachchela</b></sub></a></td>)
+
+[//]: # (    <td align="center"><a href="https://github.com/meetjanani"><img src="https://avatars.githubusercontent.com/u/32095359?s=100" width="100px;" alt=""/><br /><sub><b>Meet Janani</b></sub></a></td>)
+
+[//]: # (    <td align="center"><a href="https://github.com/shwetachauhan-simform"><img src="https://avatars.githubusercontent.com/u/63042002?s=100" width="100px;" alt=""/><br /><sub><b>Shweta Chauhan</b></sub></a></td>)
+
+[//]: # (    <td align="center"><a href="https://github.com/kavantrivedi"><img src="https://avatars.githubusercontent.com/u/97207242?s=100" width="100px;" alt=""/><br /><sub><b>Kavan Trivedi</b></sub></a></td>)
+
+[//]: # (    <td align="center"><a href="https://github.com/Ujas-Majithiya"><img src="https://avatars.githubusercontent.com/u/56400956?v=4" width="100px;" alt=""/><br /><sub><b>Ujas Majithiya</b></sub></a></td>)
+
+[//]: # (    <td align="center"><a href="https://github.com/aditya-chavda"><img src="https://avatars.githubusercontent.com/u/41247722?v=4" width="100px;" alt=""/><br /><sub><b>Aditya Chavda</b></sub></a></td>)
   </tr>
 </table>
 <br/>
 
-## Awesome Mobile Libraries
-- Check out our other available [awesome mobile libraries](https://github.com/SimformSolutionsPvtLtd/Awesome-Mobile-Libraries)
+[//]: # (## Awesome Mobile Libraries)
+
+[//]: # (- Check out our other available [awesome mobile libraries]&#40;https://github.com/SimformSolutionsPvtLtd/Awesome-Mobile-Libraries&#41;)
 
 ## Note
 We have updated license of flutter_credit_card from BSD 2-Clause "Simplified" to MIT.
